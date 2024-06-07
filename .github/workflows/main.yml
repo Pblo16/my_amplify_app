@@ -39,4 +39,4 @@ jobs:
           commit_author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           push_options: --force
           repository: Pblo16/my_amplify_app
-          token: ${{ secrets.GITHUB_PAT  }} # Aquí es donde usas tu secreto
+          token: ${{ secrets.PAT  }} # Aquí es donde usas tu secreto
