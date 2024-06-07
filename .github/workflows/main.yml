@@ -34,3 +34,9 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Commit the artifacts.
+          commit_user_name: Pblo16
+          commit_user_email: pablo.hv.2002@gmai.com
+          commit_author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+          push_options: --force
+          repository: Pblo16/my_amplify_app
+          token: ${{ secrets.PAT  }} # Aquí es donde usas tu secreto
